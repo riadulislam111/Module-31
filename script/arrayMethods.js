@@ -176,3 +176,18 @@ const products = [
 
 
 
+// const newProducts = products.filter(product => product.name !== "xiaomi");
+// console.log(newProducts);
+
+// const newProducts = products.filter(product => product.id !== 3);
+// // console.log(newProducts);
+
+// console.log(products.filter(products => products.price > 1000));
+
+// const newProducts = products.filter(product => product.price > 1000);
+// console.log(newProducts);
+
+
+// const newProducts = products.filter(p => p.price < 5000 && p.color === "gold");
+// console.log(newProducts);
+
