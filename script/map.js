@@ -156,6 +156,26 @@
 
 
 
-const numbers = [3,8,12,5,7,10];
-const filteredSquares = numbers.map(number => number < 10 ? number * number : number );
-console.log(filteredSquares);
+// const numbers = [3,8,12,5,7,10];
+// const filteredSquares = numbers.map(number => number < 10 ? number * number : number );
+// console.log(filteredSquares);
+
+
+// const friends = ["rahim", "korim", "konno", "hero alom"];
+// const upperCaseFriends = friends.map(friends => friends.charAt(0).toUpperCase() + friends.slice(1));
+// console.log(upperCaseFriends);
+
+
+// const numbers = [3, 4, 5];
+// const factorials  = numbers.map(number => {
+//     let result = 1;
+//     for (let i = 1; i <= numbers; i++) {
+//         result *= i;
+//     }
+//     return result;
+// });
+
+// console.log(factorials);
+
+
+
