@@ -74,13 +74,13 @@
 
 
 
-const products = [
-    {id: 1, name: "iphone", color: "black", price: 1090, brand: "apple"},
-    {id: 2, name: "xiaomi", color: "gold", price: 200, brand: "xiaomi"},
-    {id: 3, name: "samsung", color: "black", price: 120, brand: "samsung"},
-    {id: 4, name: "iphone", color: "gold", price: 1200, brand: "apple"},
-    {id: 5, name: "xiaomi", color: "black", price: 100, brand: "xiaomi"} // ঠিক করেছি এখানে
-];
+// const products = [
+//     {id: 1, name: "iphone", color: "black", price: 1090, brand: "apple"},
+//     {id: 2, name: "xiaomi", color: "gold", price: 200, brand: "xiaomi"},
+//     {id: 3, name: "samsung", color: "black", price: 120, brand: "samsung"},
+//     {id: 4, name: "iphone", color: "gold", price: 1200, brand: "apple"},
+//     {id: 5, name: "xiaomi", color: "black", price: 100, brand: "xiaomi"} // ঠিক করেছি এখানে
+// ];
 
 // products.forEach(product => {
 //     // console.log(product);
