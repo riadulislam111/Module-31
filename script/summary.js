@@ -1,3 +1,35 @@
+const perosn = {
+    name: "gias",
+    age: 12,
+    1: 100
+}
+
+console.log(Object.keys(perosn));
+console.log(Object.values(perosn));
+// console.log(Object.entries(person));
+
+
+console.log(perosn.name)
+
+console.log(perosn["name"])
+console.log(perosn[1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const person = {
 //     name: "gias",
 //     age: 12,
@@ -42,15 +74,15 @@
 //   });
 
 
-const products = [
-    { id: 1, name: "iphone", color: "black", price: 12000, brand: "apple"},
+// const products = [
+//     { id: 1, name: "iphone", color: "black", price: 12000, brand: "apple"},
     
-    { id: 2, name: "xiaomi", color: "black", price: 150000, brand: "xiaomi"},
-    { id: 3, name: "iphone", color: "black", price: 100, brand: "apple"},
-    { id: 4, name: "xiaomi", color: "black", price: 1000, brand: "xiaomi"},
-    { id: 5, name: "samsumg", color: "black", price: 2000, brand: "samsumg"},
+//     { id: 2, name: "xiaomi", color: "black", price: 150000, brand: "xiaomi"},
+//     { id: 3, name: "iphone", color: "black", price: 100, brand: "apple"},
+//     { id: 4, name: "xiaomi", color: "black", price: 1000, brand: "xiaomi"},
+//     { id: 5, name: "samsumg", color: "black", price: 2000, brand: "samsumg"},
 
-];
+// ];
 
 // const singleProduct = products.find(p => p.color === "black");
 // console.log(singleProduct);
