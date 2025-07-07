@@ -70,6 +70,23 @@
 
 
 
+// class person {
+//     #status;
+//     constructor(name, age, status) {
+//         this.name = name;
+//         this.age = age;
+//         this.#status = status;
+//     }
+//     action() {
+//         console.log(this.#status);
+//     }
+// }
+
+// const person2 = new person("Ahmed", 30, "married");
+// person2.action();
+
+
+
 class person {
     #status;
     constructor(name, age, status) {
@@ -78,9 +95,12 @@ class person {
         this.#status = status;
     }
     action() {
-        console.log(this.#status);
+        console.log(this.#getStatus());
+    }
+    #getStatus() {
+        return this.#status;
     }
 }
 
-const person2 = new person("Ahmed", 30, "married");
-person2.action();
+const person3 = new person("Fatema", 27, "single");
+person3.action();
